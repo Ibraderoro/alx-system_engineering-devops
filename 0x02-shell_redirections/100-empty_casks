@@ -1,2 +1,2 @@
 #!/bin/bash
-find. -empty|rev|out -d "i" -l 1|rev 
+find . -empty -printf "%f\n" 
