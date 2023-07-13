@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd /etc/hiosts
+cat /etc/passwd | cat /etc/hiosts
